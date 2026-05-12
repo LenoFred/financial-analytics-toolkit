@@ -90,23 +90,6 @@ in `/data/seplat/`.
 
 ---
 
-## Folder Structure
-financial-analytics-toolkit/
-├── notebooks/
-│   ├── 01_pl_analysis.ipynb
-│   ├── 02_variance_analysis.ipynb
-│   ├── 03_forecasting.ipynb
-│   └── 04_monte_carlo.ipynb
-├── src/
-│   ├── init.py
-│   └── analytics_toolkit.py
-├── data/
-│   └── seplat/     (place downloaded PDFs here)
-├── outputs/
-│   └── (charts and exports)
-├── requirements.txt
-└── README.md
-
 ## Why O&G Financial Data
 
 These notebooks specifically use Shell and Seplat financial data because the target application is commercial analytics for the energy sector, the workflows here mirror what Shell's Controller & Finance Operations data science team and Nigerian E&P company finance divisions do operationally.
